@@ -1,0 +1,512 @@
+{
+
+	"admin-permissions": {
+		"data": [{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef29"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "",
+				"code": "system",
+				"name": "系统管理",
+				"sort": 99,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef30"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system",
+				"code": "system_permission",
+				"name": "权限管理",
+				"sort": 99,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef31"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_permission",
+				"code": "system_permission_view",
+				"name": "查看权限",
+				"sort": 99,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef22"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_permission",
+				"code": "system_permission_add",
+				"name": "新增权限",
+				"sort": 98,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef1f"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_permission",
+				"code": "system_permission_edit",
+				"name": "编辑权限",
+				"sort": 97,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef20"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_permission",
+				"code": "system_permission_delete",
+				"name": "删除权限",
+				"sort": 96,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef2a"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system",
+				"code": "system_role",
+				"name": "角色管理",
+				"sort": 98,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef28"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_role",
+				"code": "system_role_view",
+				"name": "查看角色",
+				"sort": 99,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef1e"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_role",
+				"code": "system_role_add",
+				"name": "新增角色",
+				"sort": 98,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef2e"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_role",
+				"code": "system_role_edit",
+				"name": "编辑角色",
+				"sort": 97,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef2f"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_role",
+				"code": "system_role_delete",
+				"name": "删除角色",
+				"sort": 96,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef1d"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system",
+				"code": "system_user",
+				"name": "用户管理",
+				"sort": 97,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef2b"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_user",
+				"code": "system_user_view",
+				"name": "查看用户",
+				"sort": 99,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef25"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_user",
+				"code": "system_user_add",
+				"name": "新增用户",
+				"sort": 98,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef23"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_user",
+				"code": "system_user_edit",
+				"name": "编辑用户",
+				"sort": 97,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef2c"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_user",
+				"code": "system_user_delete",
+				"name": "删除用户",
+				"sort": 96,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef21"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system",
+				"code": "system_menu",
+				"name": "菜单管理",
+				"sort": 96,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef27"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_menu",
+				"code": "system_menu_view",
+				"name": "查看菜单",
+				"sort": 99,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef24"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_menu",
+				"code": "system_menu_add",
+				"name": "新增菜单",
+				"sort": 98,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef32"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_menu",
+				"code": "system_menu_edit",
+				"name": "编辑菜单",
+				"sort": 97,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef26"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_menu",
+				"code": "system_menu_delete",
+				"name": "删除菜单",
+				"sort": 96,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "607fdb5c042f930001ceaefd"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system",
+				"code": "system_log",
+				"name": "日志管理",
+				"sort": 95,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "607fdb77ed8e0300015849ce"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_log",
+				"code": "system_log_view",
+				"name": "查看日志",
+				"sort": 99,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef36"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system",
+				"code": "system_icon",
+				"name": "图标管理",
+				"sort": 94,
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca48f83a000001dfef37"
+				},
+				"comment": "",
+				"createTime": 0,
+				"parent": "system_icon",
+				"code": "system_icon_view",
+				"name": "查看图标",
+				"sort": 99,
+				"undeletable": true
+			}
+		],
+		"index": [{
+			"IndexName": "code_",
+			"MgoKeySchema": {
+				"MgoIndexKeys": [{
+					"Name": "code",
+					"Direction": "1"
+				}],
+				"MgoIsUnique": true
+			}
+		}]
+	},
+
+	"admin-roles": {
+		"data": [{
+			"_id": {
+				"$oid": "6063ca4859633b0001ba2e2a"
+			},
+			"comment": "超级管理员拥有所有权限",
+			"createTime": 0,
+			"permissions": [],
+			"code": "admin",
+			"name": "超级管理员",
+			"sort": 99,
+			"undeletable": true,
+			"uneditable": true
+		}],
+		"index": [{
+			"IndexName": "code_",
+			"MgoKeySchema": {
+				"MgoIndexKeys": [{
+					"Name": "code",
+					"Direction": "1"
+				}],
+				"MgoIsUnique": true
+			}
+		}]
+	},
+
+	"admin-users": {
+		"data": [{
+			"_id": {
+				"$oid": "609e754b1148160001cffb76"
+			},
+			"account": "admin",
+			"nickname": "超级管理员",
+			"password": "e10adc3949ba59abbe56e057f20f883e",
+			"roles": ["admin"],
+			"createTime": 0,
+			"undeletable": true,
+			"uneditable": true
+		}],
+		"index": [{
+			"IndexName": "account_",
+			"MgoKeySchema": {
+				"MgoIndexKeys": [{
+					"Name": "account",
+					"Direction": "1"
+				}],
+				"MgoIsUnique": true
+			}
+		}]
+	},
+
+	"admin-menus": {
+		"data": [{
+				"_id": {
+					"$oid": "6063ca45ead95a00013129bd"
+				},
+				"createTime": 0,
+				"isEnable": true,
+				"icon": "uni-icons-gear",
+				"code": "system",
+				"name": "系统管理",
+				"parent": "",
+				"permissions": ["system"],
+				"sort": 99,
+				"url": "",
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca45ead95a00013129ba"
+				},
+				"createTime": 0,
+				"isEnable": true,
+				"icon": "",
+				"code": "system_permission",
+				"name": "权限管理",
+				"parent": "system",
+				"permissions": ["system_permission_view"],
+				"sort": 99,
+				"url": "/pages/system/permission/permission",
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca45ead95a00013129be"
+				},
+				"createTime": 0,
+				"isEnable": true,
+				"icon": "",
+				"code": "system_role",
+				"name": "角色管理",
+				"parent": "system",
+				"permissions": ["system_role_view"],
+				"sort": 98,
+				"url": "/pages/system/role/role",
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca45ead95a00013129bb"
+				},
+				"createTime": 0,
+				"isEnable": true,
+				"icon": "",
+				"code": "system_user",
+				"name": "用户管理",
+				"parent": "system",
+				"permissions": ["system_user_view"],
+				"sort": 97,
+				"url": "/pages/system/user/user",
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca45ead95a00013129c1"
+				},
+				"createTime": 0,
+				"isEnable": true,
+				"icon": "",
+				"code": "system_menu",
+				"name": "菜单管理",
+				"parent": "system",
+				"permissions": ["system_menu_view"],
+				"sort": 96,
+				"url": "/pages/system/menu/menu",
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "607fdba292d0a50001e603fa"
+				},
+				"createTime": 0,
+				"isEnable": true,
+				"icon": "",
+				"code": "system_log",
+				"name": "日志管理",
+				"parent": "system",
+				"permissions": ["system_log_view", "system_log"],
+				"sort": 95,
+				"url": "/pages/system/log/log",
+				"undeletable": true
+			},
+			{
+				"_id": {
+					"$oid": "6063ca45ead95a00013129c4"
+				},
+				"createTime": 0,
+				"isEnable": true,
+				"icon": "",
+				"code": "system_icon",
+				"name": "图标管理",
+				"parent": "system",
+				"permissions": ["system_icon_view", "system_icon"],
+				"sort": 94,
+				"url": "/pages/system/icon/icon",
+				"undeletable": true
+			}
+		],
+		"index": [{
+				"IndexName": "code_",
+				"MgoKeySchema": {
+					"MgoIndexKeys": [{
+						"Name": "code",
+						"Direction": "1"
+					}],
+					"MgoIsUnique": true
+				}
+			},
+			{
+				"IndexName": "parent_",
+				"MgoKeySchema": {
+					"MgoIndexKeys": [{
+						"Name": "parent",
+						"Direction": "1"
+					}],
+					"MgoIsUnique": false
+				}
+			}
+		]
+	},
+	
+	"admin-logs": {
+		"data": [],
+		"index": [{
+			"IndexName": "endTime_",
+			"MgoKeySchema": {
+				"MgoIndexKeys": [{
+					"Name": "endTime",
+					"Direction": "-1"
+				}],
+				"MgoIsUnique": false
+			}
+		}]
+	}
+
+}

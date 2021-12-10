@@ -1,0 +1,84 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index"
+    }, {
+      "path": "pages/init/init",
+      "style": {
+        "topWindow": false,
+        "leftWindow": false
+      }
+    }, {
+      "path": "pages/login/login",
+      "style": {
+        "topWindow": false,
+        "leftWindow": false,
+        "navigationBarTitleText": "登录"
+      }
+    }, {
+      "path": "pages/demo/demo"
+    }, {
+      "path": "pages/error/404",
+      "style": {
+        "navigationBarTitleText": "Not Found"
+      }
+    }, {
+      "path": "pages/system/icon/icon",
+      "style": {
+        "navigationBarTitleText": "图标"
+      }
+    }, {
+      "path": "pages/system/permission/permission",
+      "style": {
+        "navigationBarTitleText": "权限管理"
+      }
+    }, {
+      "path": "pages/system/menu/menu",
+      "style": {
+        "navigationBarTitleText": "菜单管理"
+      }
+    }, {
+      "path": "pages/system/role/role",
+      "style": {
+        "navigationBarTitleText": "角色管理"
+      }
+    }, {
+      "path": "pages/system/user/user",
+      "style": {
+        "navigationBarTitleText": "用户管理"
+      }
+    }, {
+      "path": "pages/system/log/log",
+      "style": {
+        "navigationBarTitleText": "日志管理"
+      }
+    }, {
+      "path": "pages/personal/personal",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "explain-admin",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "topWindow": {
+    "path": "windows/topWindow",
+    "style": {
+      "height": "60px"
+    },
+    "matchMedia": {
+      "minWidth": 0
+    }
+  },
+  "leftWindow": {
+    "path": "windows/leftWindow",
+    "style": {
+      "width": "240px"
+    }
+  }
+}

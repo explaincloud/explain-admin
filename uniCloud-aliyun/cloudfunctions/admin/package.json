@@ -1,0 +1,17 @@
+{
+	"name": "admin",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"collection": "file:../common/collection",
+		"explain-unicloud": "file:../../../uni_modules/explain-unicloud/uniCloud/cloudfunctions/common/explain-unicloud",
+		"explain-validator": "file:../../../uni_modules/explain-validator/uniCloud/cloudfunctions/common/explain-validator",
+		"jwt": "file:../common/jwt"
+	}
+}
